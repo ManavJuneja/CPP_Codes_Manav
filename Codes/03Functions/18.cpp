@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void swap(int &a, int &b){
+void swap(int &a, int &b){//remove & for call by value
     int temp = a;
     a = b; 
     b = temp;
