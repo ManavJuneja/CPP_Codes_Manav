@@ -32,6 +32,23 @@ class Vec{
         cout<<endl;
     }
 
+    int get(int idx){
+        if(size == 0){
+            cout<<"Array is empty";
+            return -1;
+        }
+        if(idx >= size){
+            cout<<"Invalid Index"<<endl;
+        }
+        return arr[idx];
+    }
+
+    void remove(){
+        if(size == 0){
+            cout<<"Array is Empty";
+        }
+    }
+
 };
 
 int main(){

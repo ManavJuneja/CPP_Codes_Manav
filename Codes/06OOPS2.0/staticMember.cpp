@@ -20,6 +20,7 @@ class Customer{
     }
     //Static Member Function
     //Can't acces other non static member
+    //Belong to class only
     static void printTotalCustomer(){
         cout<<totalCustomer<<endl;
     }

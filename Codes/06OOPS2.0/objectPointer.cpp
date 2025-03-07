@@ -17,7 +17,9 @@ class Cricketer{
     }
 };
 void change(Cricketer* c){
-    (*c).avg = 77.2;
+    
+; 
+    c->avg = 88;// also written like this     // (*c).avg = 77.2
 };
  
 int main(){
@@ -36,4 +38,6 @@ int main(){
     // cout<<(*p1).avg<<endl;
    
     return 0;
+
+    //a->b mean (*a).b
 }
